@@ -1,0 +1,30 @@
+{
+  "name": "package-version-update",
+  "version": "1.0.0",
+  "description": "package version update",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "prepublish": "node index update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phinney001/package-version-update.git"
+  },
+  "keywords": [
+    "package"
+  ],
+  "author": "phinney",
+  "license": "ISC",
+  "bin": {
+    "version": "bin/version"
+  },
+  "bugs": {
+    "url": "https://github.com/phinney001/package-version-update/issues"
+  },
+  "homepage": "https://github.com/phinney001/package-version-update#readme",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "request": "^2.88.2"
+  }
+}
