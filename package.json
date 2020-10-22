@@ -12,7 +12,8 @@
     "url": "git+https://github.com/phinney001/package-version-update.git"
   },
   "keywords": [
-    "package"
+    "package",
+    "version"
   ],
   "author": "phinney",
   "license": "ISC",
