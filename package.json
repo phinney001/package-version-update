@@ -1,6 +1,6 @@
 {
   "name": "package-version-update",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "package version update",
   "main": "index.js",
   "scripts": {
